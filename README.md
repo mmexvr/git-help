@@ -1,12 +1,28 @@
 #  Git commands
 
+tldr
+
+- `git branch`
+- `git checkout -b new_branch_name`
+- `git checkout branch_name`
+- `git add .` or `git add file_name`
+- `git commit`
+- `git push
+
+
+## Start a git repository
+1. run `git init`
+
+## Fetch latest
+1. Fetch the latest from the current repository by running `git fetch`
+2. If you want to clean up old branch that have been merged and deleted `git fetch --prune`
 
 ## Create a new branch
 1. Look at what branch you are on with `git branch` command
 2. Checkout a new branch based on the one you are on `git checkout -b new_branch_name`. `-b` flags stands for branch
 
-## Checkout 
-1. To checkout out a already existing branch you run the command `git checkout branch_name`
+## Checkout from origin/local
+1. To checkout out a already existing branch you run the command `git checkout branch_name`, that will automatically set up-stream for a branch if the branch exist on orgin
 
 ## Commit
 1. First you have to stage all files for commit but running either `git add .` for all fiels or `git add file_name`
@@ -14,3 +30,4 @@
 3. When everything looks good, you can run the command `git commit `
 
 ## Push
+1. `git push`
