@@ -2,12 +2,14 @@
 
 tldr
 
+- `git init`
+- `git fetch`
 - `git branch`
 - `git checkout -b new_branch_name`
 - `git checkout branch_name`
 - `git add .` or `git add file_name`
 - `git commit`
-- `git push
+- `git push`
 
 
 ## Start a git repository
